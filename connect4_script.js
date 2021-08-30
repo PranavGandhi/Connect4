@@ -79,7 +79,7 @@ function win(){
       for (var j = 0; j < 7; j++) {
         if($('table tr').eq(i).find('td').eq(j).css( "background-color")==$('table tr').eq(i+1).find('td').eq(j).css( "background-color") && $('table tr').eq(i).find('td').eq(j).css( "background-color")==$('table tr').eq(i+2).find('td').eq(j).css( "background-color") && $('table tr').eq(i).find('td').eq(j).css( "background-color")==$('table tr').eq(i+3).find('td').eq(j).css( "background-color")&&($('table tr').eq(i).find('td').eq(j).css( "background-color")=="rgb(255, 0, 0)" || $('table tr').eq(i).find('td').eq(j).css( "background-color")=="rgb(0, 0, 255)"))
         {alert(give_color($('table tr').eq(i).find('td').eq(j).css( "background-color"))+" wins")
-        window.location.reload();}
+        reload();}
 
       }
     }
@@ -88,7 +88,7 @@ function win(){
       for (var j = 0; j < 4; j++) {
         if($('table tr').eq(i).find('td').eq(j).css( "background-color")==$('table tr').eq(i).find('td').eq(j+1).css( "background-color") && $('table tr').eq(i).find('td').eq(j).css( "background-color")==$('table tr').eq(i).find('td').eq(j+2).css( "background-color") && $('table tr').eq(i).find('td').eq(j).css( "background-color")==$('table tr').eq(i).find('td').eq(j+3).css( "background-color")&&($('table tr').eq(i).find('td').eq(j).css( "background-color")=="rgb(255, 0, 0)" || $('table tr').eq(i).find('td').eq(j).css( "background-color")=="rgb(0, 0, 255)"))
         {alert(give_color($('table tr').eq(i).find('td').eq(j).css( "background-color"))+" wins")
-        window.location.reload();}
+        reload();}
 
       }
     }
@@ -97,11 +97,11 @@ function win(){
       for (var j = 0; j < 7; j++) {
         if($('table tr').eq(i).find('td').eq(j).css( "background-color")==$('table tr').eq(i+1).find('td').eq(j+1).css( "background-color") && $('table tr').eq(i).find('td').eq(j).css( "background-color")==$('table tr').eq(i+2).find('td').eq(j+2).css( "background-color") && $('table tr').eq(i).find('td').eq(j).css( "background-color")==$('table tr').eq(i+3).find('td').eq(j+3).css( "background-color")&&($('table tr').eq(i).find('td').eq(j).css( "background-color")=="rgb(255, 0, 0)" || $('table tr').eq(i).find('td').eq(j).css( "background-color")=="rgb(0, 0, 255)"))
         {alert(give_color($('table tr').eq(i).find('td').eq(j).css( "background-color"))+" wins")
-        window.location.reload();}
+        reload();}
 
         else if($('table tr').eq(i).find('td').eq(j).css( "background-color")==$('table tr').eq(i-1).find('td').eq(j+1).css( "background-color") && $('table tr').eq(i).find('td').eq(j).css( "background-color")==$('table tr').eq(i-2).find('td').eq(j+2).css( "background-color") && $('table tr').eq(i).find('td').eq(j).css( "background-color")==$('table tr').eq(i-3).find('td').eq(j+3).css( "background-color")&&($('table tr').eq(i).find('td').eq(j).css( "background-color")=="rgb(255, 0, 0)" || $('table tr').eq(i).find('td').eq(j).css( "background-color")=="rgb(0, 0, 255)"))
         {alert(give_color($('table tr').eq(i).find('td').eq(j).css( "background-color"))+" wins")
-        window.location.reload();}
+        reload();}
 
       }
     }
