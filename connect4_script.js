@@ -43,7 +43,7 @@ var x=findLast(col)
 
 $('table tr').eq(x-1).find('td').eq(col).css( "background-color",color)
 console.log(x-1,col);
-setTimeout(() => {  win() }, 2000);
+setTimeout(() => {  win() }, 1000);
 
 
 }
